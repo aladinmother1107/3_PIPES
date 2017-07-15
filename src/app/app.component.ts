@@ -20,5 +20,18 @@ export class AppComponent {
       calle: "Primera",
       casa: "19"
     }
-  }
+  };
+
+  valorDePromesa = new Promise( (resolve,reject)=> {
+    setTimeout(()=>resolve('Llego la data!'), 3500);
+  });
+
+  fecha = new Date();
+
+  nombre2 = "fernando albErto heRRera jimenez";
+
+  video = "9NGgLhEVCUk";
+
+  activar:boolean = false;
+
 }
